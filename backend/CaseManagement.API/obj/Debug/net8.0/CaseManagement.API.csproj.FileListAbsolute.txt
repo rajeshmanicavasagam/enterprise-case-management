@@ -32,3 +32,9 @@ C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\obj\Debug\net
 C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\obj\Debug\net8.0\CaseManagement.API.pdb
 C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\obj\Debug\net8.0\CaseManagement.API.genruntimeconfig.cache
 C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\obj\Debug\net8.0\ref\CaseManagement.API.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\bin\Debug\net8.0\CaseManagement.Application.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\bin\Debug\net8.0\CaseManagement.Domain.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\bin\Debug\net8.0\CaseManagement.Infrastructure.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\bin\Debug\net8.0\CaseManagement.Application.pdb
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\bin\Debug\net8.0\CaseManagement.Infrastructure.pdb
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.API\bin\Debug\net8.0\CaseManagement.Domain.pdb

@@ -107,6 +107,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CaseManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CaseManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CaseManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CaseManagement.Application.dll": {}
+        }
+      },
+      "CaseManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CaseManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CaseManagement.Domain.dll": {}
+        }
+      },
+      "CaseManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CaseManagement.Application": "1.0.0",
+          "CaseManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CaseManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CaseManagement.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -473,10 +510,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CaseManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../CaseManagement.Application/CaseManagement.Application.csproj",
+      "msbuildProject": "../CaseManagement.Application/CaseManagement.Application.csproj"
+    },
+    "CaseManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CaseManagement.Domain/CaseManagement.Domain.csproj",
+      "msbuildProject": "../CaseManagement.Domain/CaseManagement.Domain.csproj"
+    },
+    "CaseManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CaseManagement.Infrastructure/CaseManagement.Infrastructure.csproj",
+      "msbuildProject": "../CaseManagement.Infrastructure/CaseManagement.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CaseManagement.Application >= 1.0.0",
+      "CaseManagement.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.23",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -509,7 +563,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\raj\\enterprise-case-management\\backend\\CaseManagement.Application\\CaseManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\raj\\enterprise-case-management\\backend\\CaseManagement.Application\\CaseManagement.Application.csproj"
+            },
+            "C:\\Users\\raj\\enterprise-case-management\\backend\\CaseManagement.Infrastructure\\CaseManagement.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\raj\\enterprise-case-management\\backend\\CaseManagement.Infrastructure\\CaseManagement.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

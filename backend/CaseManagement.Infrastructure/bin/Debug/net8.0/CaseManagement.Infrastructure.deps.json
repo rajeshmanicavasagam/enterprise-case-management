@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CaseManagement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CaseManagement.Application": "1.0.0",
+          "CaseManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CaseManagement.Infrastructure.dll": {}
+        }
+      },
+      "CaseManagement.Application/1.0.0": {
+        "dependencies": {
+          "CaseManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CaseManagement.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CaseManagement.Domain/1.0.0": {
+        "runtime": {
+          "CaseManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CaseManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

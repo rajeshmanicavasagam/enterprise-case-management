@@ -1,0 +1,16 @@
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\bin\Debug\net8.0\CaseManagement.Application.deps.json
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\bin\Debug\net8.0\CaseManagement.Application.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\bin\Debug\net8.0\CaseManagement.Application.pdb
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\bin\Debug\net8.0\CaseManagement.Domain.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\bin\Debug\net8.0\CaseManagement.Domain.pdb
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.csproj.AssemblyReference.cache
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.AssemblyInfoInputs.cache
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.AssemblyInfo.cs
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.sourcelink.json
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseMana.09E5E1F4.Up2Date
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\refint\CaseManagement.Application.dll
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\CaseManagement.Application.pdb
+C:\Users\raj\enterprise-case-management\backend\CaseManagement.Application\obj\Debug\net8.0\ref\CaseManagement.Application.dll
