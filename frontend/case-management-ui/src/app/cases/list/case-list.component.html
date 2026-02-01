@@ -1,0 +1,17 @@
+<h2>Cases</h2>
+
+<table border="1" cellpadding="8">
+  <tr>
+    <th>Case Number</th>
+    <th>Title</th>
+    <th>Status</th>
+    <th>Priority</th>
+  </tr>
+
+  <tr *ngFor="let c of cases">
+    <td>{{ c.caseNumber }}</td>
+    <td>{{ c.title }}</td>
+    <td>{{ c.status }}</td>
+    <td>{{ c.priority }}</td>
+  </tr>
+</table>
